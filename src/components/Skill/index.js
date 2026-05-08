@@ -23,15 +23,15 @@ const tools = [
 
 const experiences = [
   "2024-2026 Desjardins - API REST et B2B (gestion de 2-3 fournisseurs)",
-  "Integrations variees et documentation technique",
-  "2022-2024 Developpeur ServiceNow",
+  "Intégrations variées et documentation technique",
+  "2022-2024 Développeur ServiceNow",
   "2022 Stage de 8 semaines - site web PHP, SQL, HTML, CSS",
 ];
 
 const certifications = [
   "Certified ServiceNow Implementer 2024",
   "Certified ServiceNow Administrator 2022",
-  "2021-2022 College Rosemont - AEC en programmation orientee objet",
+  "2021-2022 Collège de Rosemont - AEC en programmation orientée objet",
 ];
 
 const passions = [
@@ -84,13 +84,13 @@ const Skillpage = () => {
         </button>
 
         <header className="skill-header">
-          <p className="skill-eyebrow">Skills et outils</p>
-          <h1 className="skill-title">Profil Technique</h1>
+          <p className="skill-eyebrow">Compétences et outils</p>
+          <h1 className="skill-title">Profil technique</h1>
         </header>
 
         <main className="skill-grid">
           <section className="skill-card">
-            <h2 className="skill-card-title">Skills</h2>
+            <h2 className="skill-card-title">Compétences</h2>
             <MeterList items={technicalSkills} animate={animateBars} />
           </section>
 
@@ -98,7 +98,7 @@ const Skillpage = () => {
             <h2 className="skill-card-title">Outils</h2>
             <MeterList items={tools} animate={animateBars} />
 
-            <h2 className="skill-card-title skill-subsection">Passion</h2>
+            <h2 className="skill-card-title skill-subsection">Passions</h2>
             <ul className="text-list">
               {passions.map((item) => (
                 <li key={item}>{item}</li>
@@ -107,7 +107,7 @@ const Skillpage = () => {
           </section>
 
           <section className="skill-card">
-            <h2 className="skill-card-title">Experience</h2>
+            <h2 className="skill-card-title">Expérience</h2>
             <ul className="text-list">
               {experiences.map((item) => (
                 <li key={item}>{item}</li>

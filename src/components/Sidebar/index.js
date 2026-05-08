@@ -29,13 +29,13 @@ const Sidebar = ({ isOpen, toggle }) => {
               À propos
             </SidebarLink>
             <SidebarLink onClick={toggle} to="parcour">
-              Parcours & expérience
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="projet">
-              Projets
+              Parcours
             </SidebarLink>
             <SidebarLink onClick={toggle} to="exp">
               Expérience
+            </SidebarLink>
+            <SidebarLink onClick={toggle} to="projet">
+              Projets
             </SidebarLink>
             <SidebarLink
               as="a"
@@ -48,7 +48,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SideBtnWrap>
             <SidebarRoute onClick={toggleHome} to="/Skill">
-              Skills
+              Compétences
             </SidebarRoute>
           </SideBtnWrap>
         </SideBarWrapper>

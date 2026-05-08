@@ -1,15 +1,13 @@
 import desjardinsB2B from "../../medias/desjardins-b2b.svg";
-
 export const homeObg1 = {
   id: "about",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topline: "À propos : Programmeur full-stack",
-  headLine:
-    "Motivé, débrouillard et doté d'une excellente capacité de résolution de problèmes",
+  topline: "À propos | Développeur full-stack",
+  headLine: "Débrouillard, motivé et solide en résolution de problèmes",
   description:
-    "Autrefois électricien, j'ai décidé de changer de carrière pendant la pandémie pour relever de nouveaux défis et utiliser mon plein potentiel.",
+    "Après plusieurs années comme électricien, j'ai profité de la pandémie pour me réorienter vers la programmation. J'y ai trouvé un terrain naturel pour apprendre vite, bâtir du concret et résoudre des problèmes avec logique.",
   buttonLabel: "Retour au début",
   imgStart: false,
   img: require("../../medias/me.png"),
@@ -27,9 +25,9 @@ export const homeObg2 = {
   lightTextDesc: false,
   topline: "Parcours",
   headLine:
-    "Passionné par l'informatique depuis mon jeune âge, en commençant avec un Commodore 64",
+    "Mon intérêt pour l'informatique a commencé tôt, avec un Commodore 64",
   description:
-    "J'ai connu MS-DOS, Windows 3.1, les premiers modems et l'arrivée d'internet, puis je suis resté en veille continue sur l'évolution technologique.",
+    "Du Commodore 64 à MS-DOS, puis à Windows 3.1 et aux premiers modems, j'ai grandi avec l'évolution de l'informatique. Cette curiosité m'a toujours poussé à comprendre comment les technologies fonctionnent, pas seulement à les utiliser.",
   buttonLabel: "Retour au début",
   imgStart: true,
   widthSet: false,
@@ -47,9 +45,9 @@ export const homeObg3 = {
   lightTextDesc: true,
   topline: "Expérience : Développeur ServiceNow | JavaScript",
   headLine:
-    "Mon parcours chez Fx Innovation m'a permis d'acquérir une solide expérience sur la plateforme ServiceNow.",
+    "Chez FX Innovation(Ateko), j'ai renforcé mon expertise ServiceNow et JavaScript.",
   description:
-    "J'ai également acquis une solide expérience en JavaScript sur ServiceNow, et je travaille actuellement sur un blog scientifique personnel, développé avec Next.js, que je gère entièrement, de la conception au déploiement, en passant par l'écriture des articles.",
+  "J'ai développé et amélioré des solutions ServiceNow en JavaScript, surtout autour des catalogues de services, des flows, des automatisations et de la correction de bogues. J'ai aussi exploré Next.js à travers un projet personnel de blog scientifique.",
   buttonLabel: "Retour au début",
   imgStart: false,
   img: require("../../medias/exp.webp"),
@@ -67,9 +65,9 @@ export const homeObg4 = {
   lightTextDesc: false,
   topline: "Expérience : Desjardins | API REST & B2B",
   headLine:
-    "Pilotage du volet B2B ServiceNow avec 3 fournisseurs",
+    "Participation au volet B2B ServiceNow avec plusieurs fournisseurs",
   description:
-   "Chez Desjardins, j'ai pris en charge des flux API REST au cœur des échanges B2B avec trois founisseurs. J'ai aussi travaillé sur diverses intégrations ainsi que les incidents liés.",
+    "Chez Desjardins, j'ai travaillé sur des flux API REST liés aux échanges B2B avec plusieurs fournisseurs. J'ai aussi contribué aux intégrations, à la documentation technique et au suivi des incidents associés à ces échanges.",
   buttonLabel: "Retour au début",
   imgStart: true,
   img: desjardinsB2B,

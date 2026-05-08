@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            Développeur ServiceNow | JavaScript
+            Développeur ServiceNow et JavaScript
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
 
             <NavBtn>
               <NavBtnLink onClick={toggleHome} to="/Skill">
-                Skills
+                Compétences
               </NavBtnLink>
             </NavBtn>
           </NavMenu>

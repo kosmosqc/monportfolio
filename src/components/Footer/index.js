@@ -50,7 +50,7 @@ const Footer = () => {
               Alain Gionet © {new Date().getFullYear()} Codé avec React.js et
               déployé avec GitHub
               <br />
-              | Optimisé pour PC & adapté aux mobiles |
+              | Optimisé pour ordinateur et adapté aux mobiles |
             </WebsiteRights>
           </SocialMediaWrap>
         </SocialMedia>
